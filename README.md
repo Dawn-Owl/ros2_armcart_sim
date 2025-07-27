@@ -35,10 +35,10 @@ This publishes velocity commands to /cmd_vel to move the robot.
 
 You can control each joint manually using ros2 topic pub:
 
-# Move Joint 0 to position 0.5
+### 🔹 Move Joint 0 to position 0.5
 ros2 topic pub -1 /joint0/cmd_pos std_msgs/msg/Float64 "{data: 0.5}"
 
-# Move Joint 1 to position 1.0
+### 🔹 Move Joint 1 to position 1.0
 ros2 topic pub -1 /joint1/cmd_pos std_msgs/msg/Float64 "{data: 1.0}"
 
 ## 📦 Requirements
